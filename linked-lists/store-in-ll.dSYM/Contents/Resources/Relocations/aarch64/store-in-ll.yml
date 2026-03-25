@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rhythm/Desktop/c fundamentals/linked-lists/store-in-ll'
+relocations:     []
+...
