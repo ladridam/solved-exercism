@@ -62,14 +62,14 @@ dkms.conf
 # macOS system files
 .DS_Store
 
-# Exercism metadata (optional but recommended to ignore)
+# Exercism metadata
 .exercism/
 
 # Temporary files
 *.log
 *.tmp
 
-# VS Code (if you use it)
+# VS Code
 .vscode/
 
 # Build directories
