@@ -53,3 +53,24 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Compiled files
+*.out
+*.exe
+*.o
+
+# macOS system files
+.DS_Store
+
+# Exercism metadata (optional but recommended to ignore)
+.exercism/
+
+# Temporary files
+*.log
+*.tmp
+
+# VS Code (if you use it)
+.vscode/
+
+# Build directories
+build/
