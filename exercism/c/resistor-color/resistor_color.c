@@ -1,7 +1,11 @@
 #include "resistor_color.h"
 #include<stdio.h>
-int main(){
-    enum resistorColor color;
-    color = black;
-    printf("%d", color);
+
+int color_code(resistor_band_t color){
+    return color;
+}
+
+const resistor_band_t* colors(void){
+    static resistor_band_t color_array[] = {BLACK, BROWN, RED, ORANGE, YELLOW, GREEN, BLUE, VIOLET, GREY, WHITE};
+    return color_array;
 }
